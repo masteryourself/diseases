@@ -17,7 +17,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
         // 传入 Spring Boot 应用的主程序
-        return builder.sources(SpringBootDubboApplication.class);
+        return builder.sources(DubboWarApplication.class);
     }
 
 }

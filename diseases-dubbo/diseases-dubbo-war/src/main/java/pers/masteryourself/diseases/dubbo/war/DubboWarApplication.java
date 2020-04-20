@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * <p>description : SpringBootDubboApplication
+ * <p>description : DubboWarApplication
  *
  * <p>blog : https://blog.csdn.net/masteryourself
  *
@@ -15,10 +15,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 @EnableDubbo(scanBasePackages = "pers.masteryourself.diseases.dubbo.war")
-public class SpringBootDubboApplication {
+public class DubboWarApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootDubboApplication.class, args);
+        SpringApplication.run(DubboWarApplication.class, args);
     }
 
 }
