@@ -1,7 +1,7 @@
-package pers.masteryourself.tutorial.diseases.dubbo.war.service.impl;
+package pers.masteryourself.diseases.dubbo.war.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import pers.masteryourself.tutorial.diseases.dubbo.war.service.UserService;
+import pers.masteryourself.diseases.dubbo.war.service.UserService;
 
 /**
  * <p>description : UserServiceImpl

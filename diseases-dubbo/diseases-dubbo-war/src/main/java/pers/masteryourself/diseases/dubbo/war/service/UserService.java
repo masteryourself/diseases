@@ -1,4 +1,4 @@
-package pers.masteryourself.tutorial.diseases.dubbo.war.service;
+package pers.masteryourself.diseases.dubbo.war.service;
 
 /**
  * <p>description : UserService

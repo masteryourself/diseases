@@ -1,4 +1,4 @@
-package pers.masteryourself.tutorial.diseases.dubbo.war;
+package pers.masteryourself.diseases.dubbo.war;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
