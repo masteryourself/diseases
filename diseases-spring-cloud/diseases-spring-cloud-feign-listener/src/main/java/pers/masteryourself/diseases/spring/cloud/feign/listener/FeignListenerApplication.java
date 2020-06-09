@@ -10,7 +10,7 @@ import pers.masteryourself.diseases.spring.cloud.feign.listener.remote.BaiduFeig
 import pers.masteryourself.diseases.spring.cloud.feign.listener.remote.CsdnFeignClient;
 
 /**
- * <p>description : FeignApplication
+ * <p>description : FeignListenerApplication
  *
  * <p>blog : https://blog.csdn.net/masteryourself
  *

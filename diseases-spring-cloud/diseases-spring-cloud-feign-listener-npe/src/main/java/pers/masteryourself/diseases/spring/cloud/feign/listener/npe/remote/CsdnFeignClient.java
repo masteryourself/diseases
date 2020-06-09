@@ -4,7 +4,7 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * <p>description : CSDNFeignClient
+ * <p>description : CsdnFeignClient
  *
  * <p>blog : https://blog.csdn.net/masteryourself
  *
