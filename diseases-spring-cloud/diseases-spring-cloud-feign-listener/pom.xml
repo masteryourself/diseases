@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>diseases-spring-cloud</artifactId>
+        <groupId>pers.masteryourself.diseases</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>diseases-spring-cloud-feign-listener</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>diseases-spring-cloud-feign-listener-1.x</module>
+        <module>diseases-spring-cloud-feign-listener-2.x</module>
+    </modules>
+
+</project>
