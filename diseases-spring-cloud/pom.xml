@@ -14,6 +14,7 @@
 
     <modules>
         <module>diseases-spring-cloud-feign-listener</module>
+        <module>diseases-spring-cloud-feign-listener-npe</module>
     </modules>
 
 </project>
