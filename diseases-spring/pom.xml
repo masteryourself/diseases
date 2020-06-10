@@ -2,17 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>diseases</artifactId>
+        <groupId>pers.masteryourself.diseases</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>pers.masteryourself.diseases</groupId>
-    <artifactId>diseases</artifactId>
+    <artifactId>diseases-spring</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0-SNAPSHOT</version>
 
     <modules>
-        <module>diseases-dubbo</module>
-        <module>diseases-spring-cloud</module>
-        <module>diseases-spring</module>
+        <module>diseases-spring-async-cycle</module>
     </modules>
 
 </project>
