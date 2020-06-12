@@ -20,7 +20,7 @@ import org.springframework.stereotype.Component;
 @Order(1)
 public class LoggingAspect {
 
-    @Pointcut("execution(* pers.masteryourself.diseases.spring.async.cycle.service.SomeService.logWithAop(..))")
+    @Pointcut("execution(* pers.masteryourself.diseases.spring.async.cycle.service.*.logWithAop(..))")
     public void declareJointPointExpression() {
     }
 
