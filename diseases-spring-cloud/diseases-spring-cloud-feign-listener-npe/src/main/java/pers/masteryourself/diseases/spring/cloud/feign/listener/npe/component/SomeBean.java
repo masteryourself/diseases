@@ -14,8 +14,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class SomeBean {
 
-    public void init() {
-        System.out.println("初始化操作，只能做一次");
+    public void doSomething() {
+        System.out.println("doSomething");
     }
 
 }
