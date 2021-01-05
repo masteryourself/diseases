@@ -1,6 +1,5 @@
 package pers.masteryourself.diseases.spring.async.cycle.service;
 
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,9 +14,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class SomeServiceAsyncHandler {
 
-    @Async
-    public void doAnotherThing() {
-        System.out.println(Thread.currentThread().getName() + "：doAnotherThing() method");
+    public void sendMsg() {
+        System.out.println(Thread.currentThread().getName() + "：do sendMsg() method");
     }
 
 }
